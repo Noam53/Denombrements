@@ -68,11 +68,11 @@ namespace Denombrements
                     {
                         try
                         {
-                            Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
-                            int t = int.Parse(Console.ReadLine()); // saisir le nombre
-                            Console.Write("nombre d'éléments dans le sous ensemble = "); // le sous ensemble
-                            int n = int.Parse(Console.ReadLine()); // saisir le nombre
-                                                                   // calcul de r
+                            Console.Write("nombre total d'éléments à gérer = "); 
+                            int t = int.Parse(Console.ReadLine()); 
+                            Console.Write("nombre d'éléments dans le sous ensemble = "); 
+                            int n = int.Parse(Console.ReadLine());
+                            // calcul de r                                       
                             long r = 1;
                             for (int k = (t - n + 1); k <= t; k++)
                                 r *= k;
